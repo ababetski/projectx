@@ -154,8 +154,30 @@ main .panel .button {
 	background: #999;
 }
 
+.order .row h3 {
+	position: unset;
+}
+
+.order .button h4 {
+	font-family: 'Baloo Paaji', 'Raleway', sans-serif;
+}
+
 .contact {
 	background: #777;
+}
+
+.contact .button a {
+	font-family: 'Baloo Paaji', 'Raleway', sans-serif;
+	font-size: 1.5em;
+	color: #333;
+}
+
+.contact .button:hover a {
+	color: #fff;
+}
+
+.contact .row h3 {
+	position: unset;
 }
 
 footer {
