@@ -1,0 +1,227 @@
+
+/********************************************/
+/* Hey there. This stylesheet is broken up 
+into the following sections.
+
+SECTION 1: GENERAL STYLES
+SECTION 2: CUSTOM CLASSES & IDS
+SECTION 3: BUTTONS
+SECTION 4: MENU AND NAV
+SECTION 5: OFF CANVAS NAV
+SECTION 6: MAIN DIVS AS THEY APPEAR IN THE HTML
+SECTION 7: FOOTER
+SECTION 8: MEDIA QUERIES - THIS SITE WAS BUILT 
+MOBILE FIRST. SO THE MEDIA QUERIES PERTAIN TO 
+MEDIUM AND LARGE SCREENS. */
+/********************************************/
+
+/********************************************/
+/* GENERAL STYLES */
+/********************************************/
+ * {
+ 	box-sizing: border-box;
+ }
+
+ body {
+ 	background: url(../img/vintage_leaves.jpg);
+ 	font-family: 'Belleza', 'Raleway', sans-serif;
+ }
+
+ body p {
+ 	font-size: 1.15em;
+ 	letter-spacing: .2px;
+ }
+
+.hero {
+	background-image: url(../img/muffin_compressed_small.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 10em 5%;
+}
+
+.hero h2 {
+	font-family: 'Baloo Paaji', 'Raleway', sans-serif;
+	font-size: 4em;
+}
+
+.hero h4 {
+	font-family: 'Belleza', 'Raleway', sans-serif;
+	font-size: 1.25em;
+}
+
+main {
+	margin-top: 3em;
+}
+
+main .panel {
+	position: relative;
+	padding: 0 1.5%;
+	margin-top: 2em;
+	border: solid #fff 5px;
+}
+
+main .panel h3 {
+	font-family: 'Baloo Paaji', 'Raleway', sans-serif;
+	font-size: 3em;
+	color: #fff;
+	margin: .5em 5%;
+	/*padding: .5em 5%;*/
+	position: absolute;
+	top: 3%;
+	/*background-color: #fff;*/
+}
+
+main p {
+	margin: 1em 5%;
+}
+
+main ul {
+	margin: -.5em 10% 1em 10%;
+	list-style-type: none;
+}
+
+main ul li:before {
+	content: "•";
+	margin-right: 5%;
+	color: #fff;
+}
+
+main a h4 {
+	font-family: 'Baloo Paaji', 'Raleway', sans-serif;
+	font-size: 1.5em;
+}
+
+main .panel .button {
+	margin: 0;
+	background-color: #f57f2d;
+}
+
+.button:hover h4 {
+	color: #fff;
+}
+
+.button:focus h4 {
+	color: #fff;
+}
+
+.about {
+	background-color: #a2f7ff;
+}
+
+.specials {
+	background-color: #73d3ff;
+}
+
+.bakedgoods {
+	background-color: #a1dbff;
+}
+
+.cakes {
+	background-color: #87c2ff;
+}
+
+.pizza {
+	background-color: #95ebfb;
+}
+
+.about img {
+	margin: 0;
+	padding: 0;
+}
+
+.specials img {
+	margin: 0;
+	padding: 0;
+}
+
+.bakedgoods img {
+	margin: 0;
+	padding: 0;
+}
+
+.cakes img {
+	margin: 0;
+	padding: 0;
+}
+
+.pizza img {
+	margin: 0;
+	padding: 0;
+}
+
+.order {
+	background: #999;
+}
+
+.contact {
+	background: #777;
+}
+
+footer {
+	background-color: #333;
+	padding: 2em 5%;
+	color: #fff;
+}
+
+footer ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+footer .fa {
+	font-size: 48px;
+}
+
+/********************************************/
+/* MEDIA QUERIES */
+/********************************************/
+/* Medium screens */
+/* min-width 641px, medium screens */
+@media only screen and (min-width: 40.063em) { 
+
+.hero {
+	background-image: url(../img/muffin_compressed_medium.jpg);
+
+}
+
+.hero h2 {
+	font-size: 5em;
+}
+
+.hero h4 {
+	font-size: 1.75em;
+}
+
+main .panel h3 {
+	text-shadow: 1px 1px 10px rgba(0,0,0,.3);
+}
+
+main .panel img {
+	margin-bottom: 1em;
+}
+
+/*.bakedgoods .row:nth-child(4) .button {
+	position: absolute;
+	top: 100%;
+}
+
+.cakes .row:nth-child(4) .button {
+	position: absolute;
+	top: 100%;
+}
+
+.pizza .row:nth-child(4) .button {
+	position: absolute;
+	top: 100%;
+}
+
+}*/ 
+
+/* min-width 1025px, large screens */
+/* Large screens */
+@media only screen and (min-width: 64.063em) { 
+
+} 
+
